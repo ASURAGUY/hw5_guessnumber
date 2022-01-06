@@ -32,7 +32,8 @@ class HomePage extends StatelessWidget {
         // เทียบได้กับแท็ก <div> ของ HTML
         decoration: BoxDecoration(
             color: Colors.greenAccent.shade100,
-            border: Border.all(width: 20.0, color: Colors.lightBlueAccent.shade100),
+            border:
+                Border.all(width: 20.0, color: Colors.lightBlueAccent.shade100),
             boxShadow: [
               BoxShadow(
                 color: Colors.black.withOpacity(0.5),
@@ -41,12 +42,10 @@ class HomePage extends StatelessWidget {
                 spreadRadius: 2.0,
               ),
             ]),
-        //alignment: Alignment.center,
+
         child: Center(
           child: Column(
-            //mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.center,
-            //crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -63,12 +62,12 @@ class HomePage extends StatelessWidget {
                       Text(
                         'GUESS',
                         style:
-                        TextStyle(fontSize: 30.0, color: Color(0x800000FF)),
+                            TextStyle(fontSize: 30.0, color: Color(0x800000FF)),
                       ),
                       Text(
                         'THE NUMBER',
                         style:
-                        TextStyle(fontSize: 15.0, color: Color(0x800000FF)),
+                            TextStyle(fontSize: 15.0, color: Color(0x800000FF)),
                       ),
                     ],
                   ),
